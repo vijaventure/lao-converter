@@ -16,7 +16,7 @@
 
 <style type="text/css">
     .tls { cursor:pointer; font-size:9pt; color:#666666; }
-    .bordr { width:94%; color:blue; font-family:'Times New Roman'; font-size:13pt; padding:5px; }
+    .bordr { width:90%; color:blue; font-family:'Times New Roman'; font-size:13pt; padding:5px; }
 </style>
 
 <!-- import external data -->
@@ -49,16 +49,16 @@
                         <table width="100%">
                             <tr align="center">
 
-                            <td width="50%"> Lao Script <br> <textarea name="lao" rows="20" onKeyUp="converter()" class="bordr"></textarea> <br> <br>
-                            <input type="button" class="tls" onClick="script.lao.select(); copy1()" value="Select">
+                            <td width="50%"> <h4>Lao Script</h4> <textarea name="lao" rows="15" onKeyUp="converter()" class="bordr"></textarea> <br> <br>
+                            <input type="button" class="btn btn-primary" onClick="script.lao.select(); copy1()" value="Select">
                             &nbsp; &nbsp;
-                            <input type="button" class="tls" onClick="reset(); script.lao.focus()" value="clear">
+                            <input type="button" class="btn btn-danger" onClick="reset(); script.lao.focus()" value="clear">
                             </td>
 
-                            <td width="50%"> Roman Script <br> <textarea name="roman" rows="20" class="bordr"></textarea> <br> <br>
-                            <input type="button" class="tls" onClick="script.roman.select(); copy2()" value="Select">
+                            <td width="50%"> <h4>Roman Script</h4> <textarea name="roman" rows="15" class="bordr"></textarea> <br> <br>
+                            <input type="button" class="btn btn-primary" onClick="script.roman.select(); copy2()" value="Select">
                             &nbsp; &nbsp;
-                            <input type="button" class="tls" onClick="reset(); script.roman.focus()" value="clear">
+                            <input type="button" class="btn btn-danger" onClick="reset(); script.roman.focus()" value="clear">
                             </td>
 
                             </tr>
