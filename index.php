@@ -15,8 +15,7 @@
 <meta name="description" content="An online tool to convert Lao to Roman script according to the new official romanization system of the Ministry of Health." />
 
 <style type="text/css">
-    .tls { cursor:pointer; font-size:9pt; color:#666666; }
-    .bordr { width:90%; color:blue; font-family:'Times New Roman'; font-size:13pt; padding:5px; }
+    .box { width:90%; color:black; font-family:'Phetsarath OT'; font-size:13pt; padding:10px; text-transform: capitalize;}
 </style>
 
 <!-- import external data -->
@@ -36,7 +35,7 @@
             <div class="row">
                 <div class="col-lg-12">
                 <section id="introduction">
-                    <h1 class="title">Lao Romanization Converter</h3>
+                    <h1 class="title">Lao Romanization Converter</h1>
                     &nbsp;
                     <p>Developed by the <b>Health Information System (HIS) Team, World Health Organization (WHO) Lao PDR</b>.</p>
                     <p>This tool helps you convert a text from <b>Lao to Roman</b> script, a process called <b>romanization</b> or <b>transliteration</b>.</p>
@@ -49,13 +48,13 @@
                         <table width="100%">
                             <tr align="center">
 
-                            <td width="50%"> <h4>Lao Script</h4> <textarea name="lao" rows="15" onKeyUp="converter()" class="bordr"></textarea> <br> <br>
+                            <td width="50%"> <h4>Lao Script</h4> <textarea name="lao" rows="15" onKeyUp="converter()" class="box"></textarea> <br>
                             <input type="button" class="btn btn-primary" onClick="script.lao.select(); copy1()" value="Select">
                             &nbsp; &nbsp;
                             <input type="button" class="btn btn-danger" onClick="reset(); script.lao.focus()" value="clear">
                             </td>
 
-                            <td width="50%"> <h4>Roman Script</h4> <textarea name="roman" rows="15" class="bordr"></textarea> <br> <br>
+                            <td width="50%"> <h4>Roman Script</h4> <textarea name="roman" rows="15" class="box"></textarea> <br>
                             <input type="button" class="btn btn-primary" onClick="script.roman.select(); copy2()" value="Select">
                             &nbsp; &nbsp;
                             <input type="button" class="btn btn-danger" onClick="reset(); script.roman.focus()" value="clear">
