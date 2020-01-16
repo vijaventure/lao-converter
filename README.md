@@ -4,7 +4,7 @@ Lao Romanization Converter is a tool that helps you convert a text from Lao to R
 
 ## Background
 
-This web service was developed to automate the romanisation of Lao names for official use. The World Health Organization (WHO) has been involved in standardising health facility names for the Ministry of Health (MOH), Lao PDR, and it was recommended to develop software to convert 1,000+ names in Lao and many more in other sectors.
+This web service was developed by the World Health Organization (WHO) Lao PDR to automate the romanisation of Lao names for official use. WHO Lao PDR has been involved in standardising public health facility information for the Ministry of Health (MOH), and it was recommended to develop software to convert 1,000+ names in Lao and possibly many more in other sectors.
 
 
 ## Romanization System - MOH 2020
