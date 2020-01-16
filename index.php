@@ -15,7 +15,9 @@
 <meta name="description" content="An online tool to convert Lao to Roman script according to the new official romanization system of the Ministry of Health." />
 
 <style type="text/css">
-    .box { width:90%; color:black; font-family:'Phetsarath OT'; font-size:13pt; padding:10px; text-transform: capitalize;}
+    .box { width:90%; color:black; font-family:'Phetsarath OT'; font-size:13pt; padding:10px;
+        text-transform: capitalize;
+    }
 </style>
 
 <!-- import external data -->
@@ -48,7 +50,7 @@
                         <table width="100%">
                             <tr align="center">
 
-                            <td width="50%"> <h4>Lao Script</h4> <textarea name="lao" rows="15" onKeyUp="converter()" class="box"></textarea> <br>
+                            <td width="50%"> <h4>Lao Script</h4> <textarea name="lao" placeholder="only one Lao word per line (vertically) & no space after the word" rows="15" onKeyUp="converter()" class="box"></textarea> <br>
                             <input type="button" class="btn btn-primary" onClick="script.lao.select(); copy1()" value="Select">
                             &nbsp; &nbsp;
                             <input type="button" class="btn btn-danger" onClick="reset(); script.lao.focus()" value="clear">
