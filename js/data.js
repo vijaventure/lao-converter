@@ -36,6 +36,11 @@ str = str.replace (/ຣວາງ/g, "rouang");
 str = str.replace (/ລວາງ/g, "louang");
 
 // Common Syllables (C+V+C)
+str = str.replace (/ນາດູ/g, "nadou");
+str = str.replace (/ນາດີ/g, "nadi");
+str = str.replace (/ວັງປາ/g, "vangpa");
+str = str.replace (/ບຶງວະ/g, "bungva");
+str = str.replace (/ວຽງ/g, "viang");
 str = str.replace (/ອາດື/g, "adu");
 str = str.replace (/ເຈດີ/g, "chedi");
 str = str.replace (/ນາບໍ/g, "nabò");
@@ -111,7 +116,9 @@ str = str.replace (/ຫວາ/g, "va");
 str = str.replace (/ພູ/g, "phou");
 str = str.replace (/ອອ/g, "o");
 str = str.replace (/ຍາງ/g, "nyang");
+str = str.replace (/ຍອງ/g, "nyong");
 str = str.replace (/ປຼ/g, "pl");
+str = str.replace (/ບັກ/g, "bak");
 
 // Final consonants (C+V+C)
 // ouay
