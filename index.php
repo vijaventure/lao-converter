@@ -65,6 +65,8 @@
                             </tr>
                         </table>
                     </form>
+                    &nbsp;
+                    <p>DISCLAIMER: This service is continuously being updated and romanised names are not perfect. We recommend users to review them thoroughly for any possible errors.</p>
                 </div>
             </div>
         </div>
